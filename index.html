@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="logo">
+        <img src="imagenes/Vector.png" alt="Logo de Alura">
+    </header> 
+    <main>
+        <section>
+            <textarea class="encriptador" cols="10" rows="8" placeholder="Ingrese su texto"></textarea>
+            <p>! Solo letras minúsculas y sin acentos</p>
+                <div class="botones">
+                    <botton class="boton-encriptar" onclick="botonEncriptar()">Encriptar</botton>
+                    <botton class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</botton> 
+                </div>
+        </section>
+        <section>
+            <textarea class="desencriptador" cols="30" rows= "20" disabled>Ningún mensaje fue encontrado
+            </textarea>
+            <button class="boton-copiar" onclick="copiar()">Copiar</button>
+        </section>
+   </main>
+   <footer>
+    Ivana Argüello | 2022 
+        <a href="https://github.com/IvArguello" target="blank"><img src="imagenes/github.png" alt="imagen github" class="git"></a>
+        <a href="https://www.linkedin.com/in/ivana-giselle-arguello/" target="blank"><img src="imagenes/linkedin.png" alt="imagen linkedin" class="linkedin"></a> 
+   </footer>
+   <script src="code.js"></script>
+</body>
+</html>

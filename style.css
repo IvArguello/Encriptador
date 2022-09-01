@@ -1,0 +1,123 @@
+body{
+    background-color: #e5e5e5;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+main{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.encriptador{
+    width: 100%;
+    height: 80%;
+    margin-top: 40px;
+    border-color: #e5e5e5;
+    background: #e5e5e5;
+    font-family: "inter";
+    font-size: 20px;
+    color: darkblue;
+}
+
+p{
+    font-family: "inter";
+    font-size: 14px;
+    color: #495057;
+    margin: 1em 0 0 30px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.boton-encriptar{
+    width: 250px;
+    height: 30px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 24px;
+    font-family:"inter";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    background: darkblue;
+    cursor: pointer; 
+}
+
+.boton-desencriptar{
+    width: 250px;
+    height: 30px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 24px;
+    border: 1px solid #0a3871;
+    font-family:"inter";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: #0a3871;
+    background: #d8dfe8;
+    cursor: pointer;
+}
+
+.desencriptador{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 100px;
+    top: 0px;
+    border-radius: 24px;
+    border-color: white;
+    background: url("imagenes/Muñeco.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 300px;
+    text-align: center;
+    font-family: "inter";
+    font-size: 20px;
+    color: darkblue;
+}
+
+.boton-copiar{
+    position: absolute;
+    bottom: 80px;
+    right: 160px;
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 24px;
+    border: 1px solid #0a3871;
+    font-family:"inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0a3871;
+    background: #d8dfe8;
+    cursor: pointer;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 30px;
+    background-color:#e5e5e5;
+    text-align: right;
+}
+
+.git, .linkedin{
+    width: 20px;
+}
